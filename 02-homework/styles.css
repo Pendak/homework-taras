@@ -4,8 +4,22 @@ h1 {
     font-weight: normal; 
     padding-bottom: 5px; 
    }
+
    body {
    margin-left: auto;
    margin-right: auto;
    width: 43%
+   }
+
+#text-editing {
+    font-size: 3;
+    font-family: Arial, Helvetica, sans-serif;
+   }
+
+   #margin-in-text {
+    margin-bottom: -13px;
+   }
+
+   #margin-in-paragraf  {
+    margin-bottom: -10px;
    }
