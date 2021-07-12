@@ -1,0 +1,13 @@
+#fourth-block {
+    display: flex;
+      
+    width: 560px;
+    height: 64px;
+
+    margin-top: 24px;
+    
+    
+    background: #26262B;
+    border-radius: 10px;
+    
+}

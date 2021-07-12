@@ -1,0 +1,11 @@
+#fifth-block {
+    display: flex;
+    
+    width: 360px;
+    height: 206px;
+   
+    margin-right: 40px;
+    
+    background: rgba(28, 37, 64, 0.95);
+    border-radius: 6px;
+}

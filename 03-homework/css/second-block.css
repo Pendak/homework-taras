@@ -1,0 +1,41 @@
+#second-block {
+    display: flex;
+    width: 1440px;
+    height: 52px;
+
+    margin-top: 24px;
+    
+     background: rgba(43, 38, 39, 1);
+    ;
+}
+
+#second-block #exclamation-mark{
+    width: 16px;
+    height: 16px;
+
+    margin-left: 345.5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
+
+#second-block p{
+    width: 689px;
+    height: 20px;
+
+    margin-top: 16px;
+    margin-bottom: 16px;
+    margin-left: 8px;
+
+    font-size: 13px;
+    color: #FFFF;
+
+}
+
+#second-block #dagger{
+    width: 16px;
+    height: 16px;
+
+    margin-right: 345.5px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+}
