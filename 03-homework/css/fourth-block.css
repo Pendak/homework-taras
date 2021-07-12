@@ -11,3 +11,40 @@
     border-radius: 10px;
     
 }
+
+#fourth-block p {
+    width: 469px;
+    height: 40px;
+    
+    font-family: Avenir LT Std;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    margin-left: 16px;
+    margin-top: 12px;
+    margin-bottom: 12px;
+
+    
+    color: #FFFFFF;
+    
+}
+#fourth-block span{
+     color: rgb(206, 87, 32);
+}
+#fourth-block button {
+    display: flex;
+    
+    width: 49px;
+    height: 28px;
+
+    margin-left: 10px;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    margin-right: 16px;
+    
+    background: #FFFFFF;
+    border-radius: 8px;
+
+    text-align: center;
+    
+}
