@@ -4,9 +4,9 @@
     height: 52px;
 
     margin-top: 24px;
-    
-     background: rgba(43, 38, 39, 1);
-    ;
+    background: rgba(43, 38, 39, 1);
+
+    font-family: 'Inter', sans-serif;
 }
 
 #second-block #exclamation-mark{

@@ -28,9 +28,9 @@
     margin-right: 16px;
     margin-top: 10px;
 
-    font-family: Roboto;
+    font-family: 'Roboto', sans-serif;
     font-style: normal;
-    font-weight: normal;
+    font-weight: 400;
     font-size: 14px;
     line-height: 20px;
   
@@ -43,6 +43,22 @@
     margin-bottom: 16px;
     margin-left: 16px;
 
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+
     background: #EAF0F4;
+    border-radius: 6px;
+}
+
+#sixth-block #second-button{
+    
+
+    width: 160px;
+    height: 32px;
+
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    
+    background: #40C1A7;
     border-radius: 6px;
 }

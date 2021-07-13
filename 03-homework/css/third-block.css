@@ -27,7 +27,7 @@
     margin-bottom: 16px;
     margin-right: 10px;
     
-    
+    font-family: 'Inter', sans-serif;
     
     color: #0D0C22;
 }
@@ -52,11 +52,9 @@
     border-radius: 8px;
 
     
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
     text-align: center;
     
     color: #0D0C22;
@@ -78,11 +76,9 @@
     border-radius: 8px;
 
     
-    font-family: Inter;
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 500;
-    font-size: 12px;
-    line-height: 20px;
     text-align: center;
     
     

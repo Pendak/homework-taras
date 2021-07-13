@@ -4,6 +4,8 @@
     width: 560px;
     height: 64px;
 
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
     margin-top: 24px;
     
     
@@ -16,9 +18,7 @@
     width: 469px;
     height: 40px;
     
-    font-family: Avenir LT Std;
-    font-style: normal;
-    font-weight: normal;
+    
     font-size: 12px;
     margin-left: 16px;
     margin-top: 12px;
