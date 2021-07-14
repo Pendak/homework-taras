@@ -11,7 +11,7 @@
      position: absolute;
      top: 85px;
      left: 166px;
-     margin-right: 30px;
+    
 
      max-width: 254px;
     
@@ -35,3 +35,98 @@
     line-height: 150%;
     color: #101010;
 }
+
+#third-block #services {
+    position: absolute;
+    top: 85px;
+    left: 450px;
+
+    max-width: 254px;
+}
+
+#third-block #services h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    margin-bottom: 28px;
+}
+
+#third-block #services p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
+#third-block #get-in-touch {
+    position: absolute;
+    top: 85px;
+    right: 584px;
+
+    max-width: 122px;
+}
+
+#third-block #get-in-touch h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    margin-bottom: 28px;
+}
+
+#third-block #get-in-touch p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
+#third-block #get-in-touch img {
+    margin-top: 20px;
+    width: 66px;
+}
+
+#third-block #we-support {
+    position: absolute;
+    top: 85px;
+    right: 196px;
+
+    max-width: 216px;
+}
+
+#third-block #we-support h2 {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #101010;
+    margin-bottom: 33px;
+}
+
+#third-block #we-support img {
+    width:216px ;
+}
+
+#third-block #container-text {
+    position: absolute;
+   bottom: 86px;
+   left: 161px;
+
+    min-width: 155px;
+}
+#third-block #container-text p {
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    color: #101010;
+}
+
