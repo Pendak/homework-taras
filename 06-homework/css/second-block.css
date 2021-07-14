@@ -1,0 +1,133 @@
+#second-block {
+    position: relative;
+    max-width: 1440px;
+    min-height: 500px;
+    
+    margin: 0px auto 45px;
+    
+    background: #ffffff;
+}
+
+#second-block #container-text {
+    position: absolute;
+    left: 176px;
+    top: 117px;
+    max-width: 434px;
+}
+
+#second-block #container-text h1 {
+    max-width: 445px;
+    min-height: 96px;
+    
+    
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    
+    color: #000000;
+}
+
+#second-block #container-text p {
+    max-width: 434px;
+    min-height: 64px;
+
+    
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    
+    color: #000000;
+}
+
+
+#second-block #container-questionnaire {
+    position: absolute;
+    top: 117px;
+    right: 165px;
+
+    max-width: 540px;
+}
+
+#second-block #container-questionnaire .framework-content {
+    border: 1px solid #333333;
+    border-radius: 6px;
+
+    height: 60px;
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: rgba(19, 39, 67, 0.5);
+
+
+}
+
+#second-block #container-questionnaire p {
+    margin: 21px auto 20px 31px;
+}
+
+#second-block #container-questionnaire  #section-one {
+     display: flex;
+}
+
+#second-block #container-questionnaire  #section-one #div-one {
+   width: 255px;
+   margin-right: 30px;
+   margin-bottom: 24px;
+}
+
+#second-block #container-questionnaire #section-one #div-two {
+    width: 255px;
+}
+
+#second-block #container-questionnaire #section-two {
+    width: 540px;
+    margin-bottom: 24px;
+}
+
+#second-block #container-questionnaire #section-three {
+   position: relative;
+    display: flex;
+    width: 540px;
+    margin-bottom: 27px;
+    
+}
+
+#second-block #container-questionnaire #section-three img{
+   position: absolute;
+   right: 23px;
+   top: 23px;
+    width: 14px;
+    
+   
+}
+
+#second-block #container-questionnaire button {
+    width: 160px;
+    height: 50px;
+
+    
+    background: #ED4C5C;
+    border: 1.5px solid #ED4C5C;
+    border-radius: 6px;
+
+  
+
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+
+    text-transform: uppercase;
+    text-align: center;
+
+    color: #FFFFFF;
+}
+
+
