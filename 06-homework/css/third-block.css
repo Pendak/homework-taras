@@ -1,3 +1,9 @@
+#full-width-two {
+    max-width: 100%;
+    min-height: 435px;
+    background: #FAFAFA;
+}
+
 #third-block  {
     position: relative;
     max-width: 1440px;

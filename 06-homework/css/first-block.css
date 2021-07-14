@@ -1,3 +1,9 @@
+#full-width-one {
+    max-width: 100% ;
+    min-height: 500px;
+    background: #ED4C5C;
+}
+
 #first-block  {
     position: relative;
     
