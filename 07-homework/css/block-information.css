@@ -1,0 +1,45 @@
+#block-information {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+    max-width: 1117px;
+    min-height: 560px;
+
+    background: rgba(240, 99, 184, 0.15);
+    border-radius: 50px;
+
+    margin: 0px auto 150px;
+}
+
+#block-information #image {
+    background-image: url(../image/image2.png);
+    width: 477px;
+    height: 504px;
+    margin: 32px 62px 24px 11px;
+
+}
+
+#block-information #text {
+    max-width: 475px;
+
+}
+
+#block-information #text h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 130%;
+    color: #212353;
+    margin-bottom: 40px;
+}
+
+#block-information #text p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+}
