@@ -51,7 +51,7 @@ header button {
 }
 
 header div{
-     background-image: url(./image/image1\ 1.png);
+     background-image: url(../image/image1\ 1.png);
      width: 885px;
      height: 468px;
      align-self: flex-end;
