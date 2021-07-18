@@ -1,0 +1,84 @@
+footer {
+    max-width: 1118px;
+    min-height: 850px;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 0px 95px 0px;
+    margin: 0px auto;
+}
+.section-one{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 150px;
+}
+.offer h2 {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #212353;
+    margin-bottom: 20px;
+}
+.offer p{
+    font-family: Avenir;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    color: #4B5D68;
+}
+.buttons {
+     display: flex;
+     min-width: 410px;
+}
+.button-one{
+    min-width: 170px;
+   height: 60px;
+    background: #F063B8;
+    border-radius: 50px;
+    border: 0px;
+    padding: 15px 37px;
+    margin-right: 30px;
+     
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.button-two{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    min-width: 210px;
+    height: 60px;
+    padding: 17px 29px;
+    background: #FFFFFF;
+    box-shadow: 0px 5px 5px rgba(75, 93, 104, 0.1);
+    border-radius: 50px;
+    border: 0px;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    color: #212353;
+}
+.button-two p{
+    margin-right: 20px;
+}
+
+.arrow{
+    width: 22px;
+    height: 16px;
+     background-image: url(../image/Group.png);
+     margin-top: 5px;
+    }
+
+
+.section-two{
+     display: flex;
+     flex-wrap: wrap;
+     margin-bottom: 88px;
+}
+
