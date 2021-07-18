@@ -1,3 +1,130 @@
-body {
-    max-width: 100%;
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1137px;
+    min-height: 1002px;
+    margin: 0px auto 0px;
 }
+
+main #first-block {
+    max-width: 584px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 149px;
+}
+
+main #first-block h2{
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    color: #212353;
+    margin-bottom: 50px;    
+}
+
+main #first-block p{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 160%;
+    color: #4B5D68;
+    text-align: center;
+}
+
+
+
+
+
+main #second-block {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-between;
+     align-items: flex-start;
+
+     max-width: 1117px;
+}
+main #second-block .h3-text{
+    font-family: 'Roboto', sans-serif; 
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    color: #212353;
+    margin-bottom: 20px;
+}
+main #second-block  .p-text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: #4B5D68;
+    max-width: 220px;
+    min-height: 200px;
+    margin-bottom: 20px;
+}
+main #second-block  .button-main{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+     min-width: 127px;
+     min-width: 26px;
+
+     background-color: white;
+     border: 0px;
+     padding: 0px;
+}
+main #second-block .button-text{
+    font-family: 'Poppins', sans-serif;
+     font-style: normal;
+     font-weight: 900;
+     font-size: 16px;
+     color: #212353;
+     margin-right: 20px;
+}
+main #second-block  .arrow{
+    width: 22px;
+    height: 16px;
+     background-image: url(../image/Group.png);
+     margin-top: 5px;
+}
+main #second-block .container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+     max-width: 500px; 
+     min-height: 450px;  
+     
+}
+main #second-block #container-one #image3-1{
+    width: 232px;
+    height: 211px;
+    background-image: url(../image/image3-1.png);
+    margin-right: 29px;
+    margin-top: 25px;
+}
+main #second-block #container-two #image3-2{
+    width: 241px;
+    height: 185px;
+    background-image: url(../image/image3-2.png);
+    margin-right: 33px;
+    margin-top: 25px;
+}
+main #second-block #container-three #image3-3{
+    width: 245px;
+    height: 181px;
+    background-image: url(../image/image3-3.png);
+    margin-right: 35px;
+    margin-top: 75px;
+}
+main #second-block #container-four #image3-4{
+    width: 230px;
+    height: 201px;
+    background-image: url(../image/image3-4.png);
+    margin-right: 39px;
+    margin-top: 35px;
+}
+
