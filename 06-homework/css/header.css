@@ -1,0 +1,52 @@
+
+header{
+    max-width: 1440px;
+    min-height: 450px;
+    margin: 0px auto;
+    background: #ED4C5C;
+    padding: 94px 0px 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+header  #container-one {
+    max-width: 445px;
+    margin-left: 165px;
+}
+
+header  #container-one h2{
+    margin-top: 30px;
+    width: 445px;
+    min-height: 107px;
+    margin-bottom: 24px;
+   
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 36px;
+    line-height: 43px;
+    color: #FFFFFF;
+}
+
+
+header  #container-one p {
+    max-width: 445px;
+    min-height: 64px;
+
+    line-height: 19px;
+    
+     
+font-family: 'Lato', sans-serif;
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+color: #FFFFFF;
+margin-bottom: 42px;
+}
+
+header  .image1{
+     width: 533px;
+     height: 311px;
+     margin-right: 216px;
+}

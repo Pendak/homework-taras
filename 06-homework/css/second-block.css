@@ -1,7 +1,10 @@
 #second-block {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1440px;
-    min-height: 500px;
+    min-height: 450px;
+    padding: 117px 0px 0px 0px;
     
     margin: 0px auto 45px;
     
@@ -9,10 +12,8 @@
 }
 
 #second-block #container-text {
-    position: absolute;
-    left: 176px;
-    top: 117px;
     max-width: 434px;
+    margin-left: 176px;
 }
 
 #second-block #container-text h1 {
@@ -45,11 +46,9 @@
 
 
 #second-block #container-questionnaire {
-    position: absolute;
-    top: 117px;
-    right: 165px;
 
     max-width: 540px;
+    margin-right: 165px;
 }
 
 #second-block #container-questionnaire .framework-content {
@@ -64,6 +63,9 @@
     font-size: 16px;
     line-height: 19px;
     color: rgba(19, 39, 67, 0.5);
+    padding-left: 30px;
+    
+    
 
 
 }
@@ -87,7 +89,7 @@
 }
 
 #second-block #container-questionnaire #section-two {
-    width: 540px;
+    width: 507px;
     margin-bottom: 24px;
 }
 
@@ -96,6 +98,8 @@
     display: flex;
     width: 540px;
     margin-bottom: 27px;
+    
+    
     
 }
 
@@ -116,6 +120,7 @@
     background: #ED4C5C;
     border: 1.5px solid #ED4C5C;
     border-radius: 6px;
+    cursor: pointer;
 
   
 

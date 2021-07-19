@@ -1,25 +1,31 @@
 #full-width-two {
-    max-width: 100%;
+    max-width: 1440px;
     min-height: 435px;
     background: #FAFAFA;
+    margin: 0px auto;
+    
 }
 
 #third-block  {
-    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1440px;
-    min-height: 435px;
+    min-height: 370px;
     margin: 0px auto;
+    padding-left: 161px;
+    padding-right: 196px;
+    padding-top: 85px;
+    padding-bottom: 86px;
     
     background: #FAFAFA;
 }
 
 #third-block #address {
-     position: absolute;
-     top: 85px;
-     left: 166px;
     
 
      max-width: 254px;
+     
     
 }
 
@@ -40,12 +46,10 @@
     font-size: 12px;
     line-height: 150%;
     color: #101010;
+    margin-bottom: 141px;
 }
 
 #third-block #services {
-    position: absolute;
-    top: 85px;
-    left: 450px;
 
     max-width: 254px;
 }
@@ -66,12 +70,10 @@
     font-size: 12px;
     line-height: 150%;
     color: #101010;
+    text-decoration: none;
 }
 
 #third-block #get-in-touch {
-    position: absolute;
-    top: 85px;
-    right: 584px;
 
     max-width: 122px;
 }
@@ -92,6 +94,7 @@
     font-size: 12px;
     line-height: 150%;
     color: #101010;
+   
 }
 
 #third-block #get-in-touch img {
@@ -100,9 +103,6 @@
 }
 
 #third-block #we-support {
-    position: absolute;
-    top: 85px;
-    right: 196px;
 
     max-width: 216px;
 }
@@ -121,9 +121,6 @@
 }
 
 #third-block #container-text {
-    position: absolute;
-   bottom: 86px;
-   left: 161px;
 
     min-width: 155px;
 }
@@ -134,5 +131,9 @@
     font-size: 12px;
     line-height: 150%;
     color: #101010;
+}
+
+#third-block a{
+    text-decoration: none;
 }
 
