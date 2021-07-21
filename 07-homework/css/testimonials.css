@@ -22,7 +22,7 @@
     border-radius: 20px;
     display: flex;
     align-items: flex-start;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     flex-wrap: wrap;
     padding: 60px 103px 50px 103px;
     margin-bottom: 60px;
@@ -43,15 +43,16 @@
     line-height: 160%;
     color: #212353;
     margin-top: 20px;
+    
 }
-#testimonials #container1 div a{
+#testimonials #container1 div .a{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
     line-height: 160%;
     color: #9C69E2;
-    margin-bottom: 19px;
+    
 }
 #testimonials #container1 div p{
     font-family: 'Poppins', sans-serif;
@@ -60,6 +61,7 @@
     font-size: 18px;
     line-height: 180%;
     color: #4B5D68;
+    margin-top: 19px;
 }
 
 .navigacion{

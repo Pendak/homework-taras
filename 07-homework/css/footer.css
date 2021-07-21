@@ -79,6 +79,117 @@ footer {
 .section-two{
      display: flex;
      flex-wrap: wrap;
+     justify-content: space-between;
      margin-bottom: 88px;
+     text-decoration: none;
+
 }
+.datawarehouse  {
+    display:flex;
+    flex-direction: column;
+    
+}
+.logo {
+    display: flex;
+    align-items: center;
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 20px;
+    line-height: 32px;
+    color: #212353;
+
+    margin-bottom: 65px;
+}
+.logo-img {
+    margin-right: 20px;
+    width: 50px;
+}
+
+.li-one {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 180%;
+    
+    letter-spacing: 0.01em;
+    
+    color: #212353;
+}
+.li-two {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+   
+    color: #212353;
+    text-decoration: none;
+}
+ ul li:nth-child(2){
+    margin-bottom: 10px;
+}
+.social-media {
+    background-image: url(/07-homework/image/SM.png);
+    width: 178px;
+    height: 50px;
+}
+
+
+
+.footer-section {
+    display: flex;
+    flex-direction: column;
+}
+.footer-h3 {
+    display: flex;
+    align-items: center;
+    min-height: 35px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 160%;
+    color: #212353;
+    margin-bottom: 30px;
+    
+}
+.footer-a {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 250%;
+    color: #212353;
+    text-decoration: none;
+}
+
+
+
+.section-three {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 180%;
+    letter-spacing: 0.01em;
+    color: #212353;
+}
+
+.section-three  p {
+    max-width: 300px;
+}
+ .sms {
+     background-image: url(/07-homework/image/Group4.png);
+     width: 60px;
+     height: 60px;
+ }
 
