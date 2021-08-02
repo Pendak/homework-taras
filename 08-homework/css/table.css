@@ -1,0 +1,40 @@
+.table{
+    border: 1px  rgb(231, 231, 231);
+    border-radius: 20px;
+    margin: 50px auto;
+    display: inline-table;
+      
+}
+.tr{
+    border: 10px;
+    border-radius: 10px;
+    border-color:white ;
+
+}
+.col1{
+    width: 400px;
+    height: auto;
+    text-align: left; 
+}
+.col2{
+    width: 200px;
+    height: auto;
+    text-align: left; 
+}
+.col3{
+    width: 200px;
+    height: auto;
+}
+
+.triangle::after {
+        content: "";
+        /* position: relative;
+        top: 13px;
+        left: 10px; */
+        border-left: 6px solid transparent;
+        border-right: 6px solid transparent;
+        border-top: 6px solid #FFFFFF;
+}
+th {
+    
+}

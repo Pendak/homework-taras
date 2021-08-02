@@ -1,0 +1,114 @@
+header{
+    max-width: 1440px;
+    height: 810px;
+    margin: 0px auto;
+    background: linear-gradient(to right, #FFF 50%, #2B7AF1 50%);
+    padding-top: 30px;
+   
+}
+
+.nav{
+   display: grid;
+   grid-template-columns: repeat(5, 1fr) 218px;
+   height: auto;
+   align-items: center;
+   
+   margin: 0px 80px 63px;
+   
+}
+
+.logo {
+    background-image: url(/09-homework/image/logo.jpg);
+    width: 136px;
+    height: 54px;
+    margin: 0px 0px auto 0px;
+}
+.nav-col-2 {
+    display: flex;
+    justify-content: space-around;
+}
+.nav-col-3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.page-nav {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #111111;
+    text-align: left;
+    text-decoration: none;
+}
+.a {
+    text-decoration: none;
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    
+}
+.img-a1{
+    margin-left: 27px;
+    margin-right: 10px;
+}
+.img-a2{
+    margin-right: 10px;
+}
+.big-button {
+    padding: 15px 30px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    box-shadow: 0px 10px 20px rgba(255, 122, 0, 0.2);
+    border-radius: 25px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+    border: 0px;
+}
+
+.hed{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin-left: 80px;
+}
+.hed-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 49px;
+    display: flex;
+    align-items: center;
+    color: #111111;
+    margin-bottom: 20px;
+    margin-top: 80px;
+}
+.hed-p{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 33px;
+
+    color: #111111;
+    margin-bottom: 60px;
+   
+}
+.apartament{
+    width: 890px;
+    height: auto;
+    filter: drop-shadow(0px 10px 20px rgba(17, 17, 17, 0.1));
+    border-radius: 10px 0px 0px 10px;
+    
+}

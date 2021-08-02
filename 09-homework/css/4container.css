@@ -1,0 +1,48 @@
+.container4{
+    display: grid;
+    grid-template-columns: repeat(4,300px);
+    gap: 20px;
+    max-width: 1280px;
+    margin: 0px auto;
+    position: relative;
+    top: -146px;
+}
+
+.container{
+    width: 305px;
+    height: 231px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    filter: drop-shadow(0px 5px 20px rgba(17, 17, 17, 0.3));
+}
+.container-p{
+    background-repeat: no-repeat;
+    background-position-x: center ;
+    background-position-y: 40px ;
+    padding-top: 146px ;
+
+    max-width: 265px;
+    margin: auto;
+    
+   
+
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #111111;
+}
+.con-p1{
+    background-image: url(/09-homework/image/doc.svg);
+}
+.con-p2{
+    background-image: url(/09-homework/image/money.png);
+}
+.con-p3{
+    background-image: url(/09-homework/image/time.png);
+}
+.con-p4{
+    background-image: url(/09-homework/image/security.svg);
+}

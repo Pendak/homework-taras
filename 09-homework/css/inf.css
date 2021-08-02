@@ -1,0 +1,72 @@
+.inf{
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+.inf-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    gap: 20px;
+    margin-bottom: 100px;
+}
+.inf-p-main{
+    grid-column: span 2;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 25px;
+    color: #111111;
+}
+.inf-h2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+
+    margin-bottom: 40px;
+}
+.inf-p{
+    font-family: 'Manrope', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 26px;
+    color: #111111;
+    
+}
+.inf-p-figures{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 44px;
+    color: #2B7AF1;
+    margin-bottom: 10px;
+}
+.short-inf{
+    background-repeat: no-repeat;
+    padding-left: 100px;
+}
+
+.deal{
+    background-image: url(/09-homework/image/deal\ 1.svg);
+}
+.comment{
+    background-image: url(/09-homework/image/deal\ 2.svg); 
+}
+.home{
+    background-image: url(/09-homework/image/deal3.svg);  
+}
+
+
+
+.linear{
+    width: 1280px;
+    height: 1px;
+    margin: 0px auto 107px;
+    background: linear-gradient(89.77deg, #FF7A00 0.2%, #FFB039 99.82%);
+    border-radius: 1px;
+}
