@@ -19,6 +19,9 @@
     <link rel="stylesheet" href="./css/4container.css">
     <link rel="stylesheet" href="./css/inf.css">
     <link rel="stylesheet" href="./css/contacts.css">
+    <link rel="stylesheet" href="./css/offers-of-apartments.css">
+    <link rel="stylesheet" href="./css/customer-reviews.css">
+    <link rel="stylesheet" href="./css/Feedback.css">
 </head>
 <body>
 
@@ -57,48 +60,49 @@
         <div class="container"><p class="container-p con-p4">Полная конфиденциальность</p></div>
     </main>
 
-    <main>
-        <h2>Наши квартиры</h2>
-        <div>
-            <div>
-                <h3>Однокомнатная квартира</h3>
-                <p>Сутки: <span>1 500 ₽</span></p>
-                <div>
-                    <i></i>
-                    <p>Березники, ул. Юбилейная 108</p>
-                    <button>Подробнее</button>
+    <main class="offers-of-apartments">
+        <h2 class="inf-h2">Наши квартиры</h2>
+        <div class="offers-grid">
+
+            <div class="one-room blocks-inf">
+                <h3 class="offers-h3">Однокомнатная квартира</h3>
+                <p class="offers-p">Сутки: <span class="price">1 500 ₽</span></p>
+                <div class="offers-location">
+                    <a class="offers-location-a" href="#"><img class="offers-location-img" src="./image/Vector.svg" alt="location"> Березники, ул. Юбилейная 108</a>
+                    <button class="small-button">Подробнее</button>
                 </div>
             </div>
-            <div>
-                <h3>Трёхкомнатная квартира</h3>
-                <p>Сутки: <span>1 300 ₽</span></p>
-                <div>
-                    <i></i>
-                    <p>Березники, ул. Юбилейная 108</p>
-                    <button>Подробнее</button>
+
+            <div class="three-room blocks-inf">
+                <h3 class="offers-h3">Трёхкомнатная квартира</h3>
+                <p class="offers-p">Сутки: <span class="price">1 300 ₽</span></p>
+                <div class="offers-location">
+                    <a class="offers-location-a" href="#"><img class="offers-location-img" src="./image/Vector.svg" alt="location"> Березники, ул. Юбилейная 108</a>
+                    <button class="small-button">Подробнее</button>
                 </div>
             </div>
-            <div>
-                <button>Новая квартира</button>
-                <h3>Двухкомнатная квартира</h3>
-                <p>Сутки: <span>1 700 ₽</span></p>
-                <div>
-                    <i></i>
-                    <p>Березники, ул. Юбилейная 108</p>
-                    <button>Подробнее</button>
+
+            <div class="two-room blocks-inf">
+                <button class="new-accommodation">Новая квартира</button>
+                <h3 class="offers-h3">Двухкомнатная квартира</h3>
+                <p class="offers-p">Сутки: <span class="price">1 700 ₽</span></p>
+                <div class="offers-location">
+                    <a class="offers-location-a" href="#"><img class="offers-location-img" src="./image/Vector.svg" alt="location"> Березники, ул. Юбилейная 108</a>
+                    <button class="small-button">Подробнее</button>
                 </div>
             </div>
-            <div>
-                <h3>Пятикомнатная квартира</h3>
-                <p>Сутки: <span>4 100 ₽</span></p>
-                <div>
-                    <i></i>
-                    <p>Березники, ул. Юбилейная 108</p>
-                    <button>Подробнее</button>
+
+            <div class="five-room blocks-inf">
+                <h3 class="offers-h3">Пятикомнатная квартира</h3>
+                <p class="offers-p">Сутки: <span class="price">4 100 ₽</span></p>
+                <div class="offers-location">
+                    <a class="offers-location-a" href="#"><img class="offers-location-img" src="./image/Vector.svg" alt="location"> Березники, ул. Юбилейная 108</a>
+                    <button class="small-button">Подробнее</button>
                 </div>
             </div>
+            
         </div>
-        <button class="big-button">Смотреть все квартиры</button>
+        <button class="big-button button-offers">Смотреть все квартиры</button>
     </main>
 
 
@@ -149,6 +153,54 @@
         </section>
         <div>
             <img src="/09-homework/image/Map.svg" alt="map">
+        </div>
+    </main>
+
+    <section class="customer-reviews">
+        <h2  class="customer-reviews-h2">Отзывы клиентов</h2>
+        <div  class="reviews">
+
+            <div class="reviews-main">
+                <h3  class="reviews-main-h3">Уютная квартира</h3>
+                <p class="reviews-content">Первый раз отдыхали в Березниках, времени было мало соответственно жильё искали заранее. Залог вносили с опасением, и очень рады что они были напрасными. Всё супер. Нам понравилось!</p>
+                <p class="reviews-name">Екатерина Трушникова</p>
+                <div class="city-date">
+                    <p class="city">г. Пермь</p>
+                    <p class="date">2 января 2021</p>
+                </div>
+            </div>
+
+            <div class="reviews-main">
+                <h3  class="reviews-main-h3">Клёвый вид на город</h3>
+                <p class="reviews-content">Хочу поблагодарить за квартиру на ул. Юбилейной, д. 108. Удобное месторасположение, совсем рядом с центром. Квартира уютная, соседей не слышно, мы прекрасно отдохнули. Все что нужно для приготовления еды есть.</p>
+                <p class="reviews-name">Иван Огородников</p>
+                <div class="city-date">
+                    <p class="city">г. Краснокамск</p>
+                    <p class="date">15 сентября 2019</p>
+                </div>
+            </div>
+
+            
+            
+
+        </div>
+        <img class="slider" src="./image/Slider.svg" alt="slider">
+        <img class="arrow" src="./image/Arrow.svg" alt="arrow">
+    </section>
+
+    <main class="feedback">
+        <form  class="feedback-form" action="">
+            <h2 class="feedback-h2">Напишите нам</h2>
+            <input type="text">
+            <input type="text">
+            <input type="text">
+            <button class="feedback-button">Отправить</button>
+        </form>
+
+        <div class="feedback-content">
+            <p>Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе, или опубликуем его на нашем сайте.</p>
+            <p>Татьяна Вячеславовна</p>
+            <p>Директор гостиницы</p>
         </div>
     </main>
 

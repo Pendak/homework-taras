@@ -5,3 +5,10 @@
 * {
     border: 0px;
 }
+
+button{
+    cursor: pointer;
+}
+a{
+    cursor: pointer;
+}
