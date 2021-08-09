@@ -1,0 +1,84 @@
+.footer{
+    background: rgba(17, 17, 17, 0.5);
+    max-width: 1440px;
+    padding: 417px 80px 22px;
+    background-image: url(/09-homework/image/img.svg);
+    background-repeat: no-repeat;
+    margin-bottom: 50px;
+   
+}
+
+
+
+.logo-footer{
+    padding: 19px 33px;
+    border: 0px;
+
+    background: #2B7AF1;
+    border-radius: 10px;
+
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-right: 30px;
+}
+
+.footer-nav{
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.footer-ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    align-items: center;
+    
+}
+
+.footer-nav-a{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.a-decoration{
+    text-decoration: underline;
+}
+
+.linear-footer{
+    
+    
+    align-items: center;
+    border-bottom: 2px solid #C4C4C4;
+    margin-bottom: 20px;
+}
+
+.copyright{
+    display: flex;
+}
+
+.copyright-p1 {
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+    margin-right: 229px;
+}
+.copyright-p2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #FFFFFF;
+}

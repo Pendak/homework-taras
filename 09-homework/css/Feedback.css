@@ -4,10 +4,11 @@
     background-image: url(/09-homework/image/Vector111.svg);
     background-repeat: no-repeat;
     background-position: 534px 0px;
-    margin: 0px auto;
+    margin: 0px auto -200px;
     display: grid;
     grid-template-columns: 493px 703px;
     gap: 84px;
+
 }
 
 .feedback-form{
@@ -24,6 +25,61 @@
 
      
 }
+.name{
+    width: 313px;
+    color: rgba(17, 17, 17, 0.5);
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 15px;
+    overflow: visible;
+
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+.email{
+    width: 313px;
+    color: rgba(17, 17, 17, 0.5);
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 15px;
+
+    overflow: visible;
+
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+.textarea{
+    resize: none;
+    height: 115px;
+    margin-bottom: 24px;
+
+    width: 313px;
+    color: rgba(17, 17, 17, 0.5);
+    border: 1px solid rgba(17, 17, 17, 0.5);
+    box-sizing: border-box;
+    border-radius: 10px;
+    padding: 10px 0 10px 20px;
+    margin-bottom: 15px;
+
+    overflow: auto;
+
+    font-family: inherit;
+    font-size: 100%;
+    line-height: 1.15;
+}
+
+label {
+    cursor: default;
+}
+
 .feedback-h2{
     font-family: 'Montserrat', sans-serif;
     font-style: normal;
@@ -47,4 +103,33 @@
      color: #FFFFFF;
      border: 0px;
      
+}
+
+
+
+.feedback-content-p1{
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 140%;
+    color: #111111;
+    margin-bottom: 20px;
+    margin-top: 40px;
+}
+.feedback-content-p2{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    color: #2B7AF1;
+
+}
+.feedback-content-p3{
+    font-family: 'Montserrat', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #111111;
 }

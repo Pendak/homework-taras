@@ -22,6 +22,7 @@
     <link rel="stylesheet" href="./css/offers-of-apartments.css">
     <link rel="stylesheet" href="./css/customer-reviews.css">
     <link rel="stylesheet" href="./css/Feedback.css">
+    <link rel="stylesheet" href="./css/footer.css">
 </head>
 <body>
 
@@ -30,7 +31,7 @@
         <nav class="nav">
             <i class="logo"></i>
             <ul class="nav-col-2">
-                <li><a class="page-nav" href="#">Главная</a></li>
+                <li><a class="page-nav a-decoration" href="#">Главная</a></li>
                 <li><a class="page-nav" href="#">Квартиры</a></li>
             </ul>
             <ul class="nav-col-3">  
@@ -191,20 +192,45 @@
     <main class="feedback">
         <form  class="feedback-form" action="">
             <h2 class="feedback-h2">Напишите нам</h2>
-            <input type="text">
-            <input type="text">
-            <input type="text">
+            <label for="name"></label>
+            <input class="name" type="text" id="name" name="name" placeholder="Имя">
+            <label for="email"></label>
+            <input class="email" type="text" id="email" name="email" placeholder="Email">
+            <label for="textarea"></label>
+            <textarea  class="textarea"  name="textarea" id="textarea" placeholder="Ваше сообщение"></textarea>
             <button class="feedback-button">Отправить</button>
         </form>
 
         <div class="feedback-content">
-            <p>Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе, или опубликуем его на нашем сайте.</p>
-            <p>Татьяна Вячеславовна</p>
-            <p>Директор гостиницы</p>
+            <p class="feedback-content-p1">Дорогой гость, если у тебя есть какие-то пожелания или притензии по улучшению качества обслуживания или просто хочешь оставить свой комментарий, то заполни форму. Мы обязательно ответим тебе, или опубликуем его на нашем сайте.</p>
+            <p class="feedback-content-p2">Татьяна Вячеславовна</p>
+            <p class="feedback-content-p3">Директор гостиницы</p>
         </div>
     </main>
 
-    <footer></footer>
+    <footer class="footer">
+       <div class="footer-nav">
+        <button class="logo-footer">Логотип</button>
+           <ul class="footer-ul">
+                <li><a class="footer-nav-a a-decoration " href="#">Главная</a></li>
+                <li><a class="footer-nav-a" href="#">Квартиры</a></li>
+                <li><a class="footer-nav-a" href="#">Контакты</a></li>
+                <li><a class="footer-nav-a" href="#">О нас</a></li>
+           </ul>
+           <a class="contacts-a" href="mailto:mail@yandex.ru">
+            <img class="con-mail con-img" src="./image/mail1.svg" alt="mail"> mail@yandex.ru</a>
+           <a class="contacts-a" href="tel:+7 (919) 714-25-00">
+            <img class="con-tel con-img" src="./image/tel1.svg" alt="tel"> +7 (919) 714-25-00</a>
+           <a href="#"><img src="./image/Social.svg" alt="Social"></a>
+       </div>
+       <div class="linear-footer"></div>
+       <div class="copyright">
+           <p class="copyright-p1">© Copyright 2021, «Домашняя гостиница»</p>
+           <p class="copyright-p2">Пользовательское соглашение</p>
+       </div>
+                 
+           
+    </footer>
    </div>
     
 </body>
