@@ -4,7 +4,7 @@
     padding: 100px 80px;
 
     background: #2B7AF1;
-    background-image: url(/09-homework/image/“.svg);
+    background-image: url(../image/“.svg);
     background-repeat: no-repeat;
     background-position:1200px 40px ;
     display: flex;
@@ -47,7 +47,7 @@
 
     margin-bottom: 23px;
 
-    background-image: url(/09-homework/image/stars.svg);
+    background-image: url(../image/stars.svg);
     background-repeat: no-repeat;
     background-position-x: 430px;
     

@@ -52,13 +52,13 @@
 }
 
 .deal{
-    background-image: url(/09-homework/image/deal\ 1.svg);
+    background-image: url(../image/deal\ 1.svg);
 }
 .comment{
-    background-image: url(/09-homework/image/deal\ 2.svg); 
+    background-image: url(../image/deal\ 2.svg); 
 }
 .home{
-    background-image: url(/09-homework/image/deal3.svg);  
+    background-image: url(../image/deal3.svg);  
 }
 
 

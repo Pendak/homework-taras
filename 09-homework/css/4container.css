@@ -35,14 +35,14 @@
     color: #111111;
 }
 .con-p1{
-    background-image: url(/09-homework/image/doc.svg);
+    background-image: url(../image/doc.svg);
 }
 .con-p2{
-    background-image: url(/09-homework/image/money.png);
+    background-image: url(../image/money.png);
 }
 .con-p3{
-    background-image: url(/09-homework/image/time.png);
+    background-image: url(../image/time.png);
 }
 .con-p4{
-    background-image: url(/09-homework/image/security.svg);
+    background-image: url(../image/security.svg);
 }

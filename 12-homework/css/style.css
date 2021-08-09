@@ -1,0 +1,16 @@
+/*swords*/
+.swords{
+    margin: 150px auto;
+    width: 700px;
+    height: 300px;
+    background-color: black;
+
+}
+
+/*balls*/
+.balls{
+    margin: 150px auto;
+    width: 700px;
+    height: 300px;
+    background: linear-gradient(360deg, #202020 0.2%, #ffffff 99.82%);
+}
